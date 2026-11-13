@@ -10,12 +10,9 @@ Prepared by: Irimaso Maurice
 
 ---
 
-## Request 1: Marketing Campaign
-
-*Data Access Decision Form*
-
-| | |
+| **Request 1: Marketing Campaign** | |
 |---|---|
+| Data Access Decision Form | |
 | **Requested by** | Sarah Owusu, Marketing Manager (current access: INTERNAL) |
 | **Request** | Full student database (names, emails, phone numbers, course enrolments) for a referral campaign starting Friday |
 | **Decision** | **DENY** the raw export. **CONDITIONAL APPROVAL** of a platform-based alternative. |
@@ -27,12 +24,9 @@ Prepared by: Irimaso Maurice
 
 ---
 
-## Request 2: Analytics Partnership
-
-*Data Access Decision Form*
-
-| | |
+| **Request 2: Analytics Partnership** | |
 |---|---|
+| Data Access Decision Form | |
 | **Requested by** | David Mensah, Head of Product |
 | **Request** | Give DataInsights Inc. (US-based) access to the AWS database to analyse learning patterns; login credentials attached |
 | **Decision** | **DENY.** Treat the shared credentials as a security incident. |
@@ -44,12 +38,9 @@ Prepared by: Irimaso Maurice
 
 ---
 
-## Request 3: Archive & Deletion
-
-*Data Access Decision Form*
-
-| | |
+| **Request 3: Archive & Deletion** | |
 |---|---|
+| Data Access Decision Form | |
 | **Requested by** | Comfort Asante, Customer Support Lead, for student James Boateng |
 | **Request** | Full deletion of account and data; last course completed 6 months ago; no pending payments |
 | **Decision** | **APPROVE**, with limited lawful retention |
