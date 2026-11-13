@@ -56,15 +56,4 @@ Prepared by: Irimaso Maurice
 | **Lifecycle stage** | **Destroy**; minimal retained records move to **Archive** |
 | **Can it be fulfilled?** | Yes, largely. The Act has no "right to be forgotten" by name, but s.33(1)(b) allows destruction of records the controller may no longer keep, s.24(1) bars retention beyond the purpose (now spent), and s.20(2)-(3) lets him object so processing must stop. |
 | **Legal obligations** | • **ss.32(1), 35(3):** verify James's identity first.<br>• **s.33(2):** comply or give credible reasons; **s.39(2):** reply in writing within 21 days to a notice to stop processing.<br>• **s.24(6):** delete so data cannot be reconstructed.<br>• **s.33(4):** notify recipients (processors, email and payment tools).<br>• **s.33(5):** confirm to James what was done. |
-| **Retention** | See retention table below. |
 | **Support process** | 1. Log the request with receipt date; verify identity.<br>2. Confirm with Finance: no open obligations, and which records the law requires.<br>3. Ask James whether to keep his completion record.<br>4. Raise an Engineering deletion ticket: databases, analytics, CRM/email, file storage, marketing lists.<br>5. Backups expire on normal rotation; suppression flag prevents restore.<br>6. Notify processors to delete copies (s.33(4)).<br>7. Archive retained financial records with restricted access and a destruction date.<br>8. Send James written confirmation: deleted, kept, why, how long (s.33(5)).<br>9. Close the ticket with a full audit trail. |
-
-**Retention**
-
-| Data | Retain? | Basis |
-|---|---|---|
-| Payment / invoice records | Yes, statutory period | Required by law (s.24(1)(a)); Finance/Legal confirm tax period |
-| Minimal deletion record (hashed ID) | Yes | Proves compliance, prevents re-contact (s.24(1)(b)) |
-| De-identified / aggregated analytics | Yes | No longer personal data (ss.24(5), 65) |
-| Completion / certificate record | Only with consent | s.24(1)(d); ask James (employer verification) |
-| Profile, contacts, logs, grades, tickets | No: delete | No remaining purpose |
